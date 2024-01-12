@@ -1,6 +1,13 @@
 @font-face {
     font-family: 'Golos Text';
-    src: url('/fonts/GolosText-Bold.ttf') format('truetype'); /* Убедитесь, что путь указан правильно */
+    src: url('/fonts/GolosText-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Golos Text';
+    src: url('/fonts/GolosText-Regular.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -23,8 +30,19 @@ body {
 }
 
 .parallax-text {
-    font-family: 'Golos Text', sans-serif;
     font-size: 48px;
     color: white;
     text-align: center;
+}
+
+.bold {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: bold;
+}
+
+.regular {
+    font-family: 'Golos Text', sans-serif;
+    font-weight: normal;
+    font-size: 24px;
+    margin-top: 30px; 
 }
